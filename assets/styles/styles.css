@@ -227,7 +227,7 @@ h1 {
 }
 .section-wrapper {
   background-color: #ffe1f2;
-  margin: 0 -5%; /* Отрицательные отступы, чтобы компенсировать margin auto у main */
+  margin: 0 -5%;
 }
 .blocks-container {
   display: flex;
