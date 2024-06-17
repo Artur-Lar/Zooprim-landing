@@ -165,9 +165,9 @@ h1 {
 }
 @font-face {
   font-family: "Angst";
-  src: url("assets/fonts/AngstVF.woff2") format("woff2"),
-    url("assets/fonts/AngstVF.woff") format("woff"),
-    url("assets/fonts/AngstVF.ttf") format("truetype");
+  src: url("./fonts/AngstVF.woff2") format("woff2"),
+    url("./fonts/AngstVF.woff") format("woff"),
+    url("./fonts/AngstVF.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
