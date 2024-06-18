@@ -194,6 +194,14 @@ h1 {
   cursor: pointer;
   border-radius: 16px;
 }
+.btn:hover {
+  background-color: #bb0368;
+}
+
+.btn:active {
+  background-color: #930453;
+  transform: scale(0.95);
+}
 .want-help {
   width: 343px;
   position: absolute;
@@ -224,10 +232,12 @@ h1 {
   padding: 15px 5%;
   margin: 0;
   background-color: inherit;
+  border-radius: 24px;
 }
 .section-wrapper {
   background-color: #ffe1f2;
-  margin: 0 -5%;
+  /* margin: 0 -5%; */
+  border-radius: 24px;
 }
 .blocks-container {
   display: flex;
@@ -287,10 +297,27 @@ h1 {
   height: 35px;
   font-size: 16px;
 }
+.transparent:hover {
+  background-color: #e5007e;
+  color: white;
+}
+
+.transparent:active {
+  background-color: #930453;
+  transform: scale(0.95);
+}
 .ourPets {
   width: 48%;
   height: 35px;
   font-size: 16px;
+}
+.ourPets:hover {
+  background-color: #bb0368;
+}
+
+.ourPets:active {
+  background-color: #930453;
+  transform: scale(0.95);
 }
 .light-color {
   color: #58003180;
